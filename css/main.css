@@ -1,0 +1,13 @@
+:root {
+    --font-sans-serif: nimbus-sans, sans-serif;
+    --font-serif: itc-american-typewriter, serif;
+    --black: #000;
+    --beige: #f2eee1;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
