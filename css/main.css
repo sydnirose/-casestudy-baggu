@@ -81,26 +81,38 @@ a.nav--item:hover {
 
 
 /** FEATURE SECTION **/
-.feature-container {
-  display: grid;
-  background-color: var(--beige);
-  grid-template-columns: 400px 400px;
-}
-
-.button-primary {
-  background-color: var(--black);
-  color: var(--beige);
-  text-transform: uppercase;
+h2.feature-title {
   font-family: var(--font-sans-serif);
-  border-radius: 15px;
-  border: none;
-  padding: 5px 30px;
+  font-size: 270%;
+  font-weight: 100;
 }
 
 img.feature-img {
   max-width: 500px;
 }
 
-h2.feature-title {
+.feature-container {
+  display: grid;
+  background-color: var(--beige);
+  grid-template-columns: 1fr 1fr;
+  max-width: 1100px;
+  padding: 20px 30px;
+  margin: 5px 0px;
+}
+
+/** FEATURE SECTION - BUTTONS **/
+.button-primary {
+  background-color: var(--black);
+  color: var(--beige);
+  text-transform: uppercase;
   font-family: var(--font-sans-serif);
+  font-size: large;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 8px 15px;
+  border: solid 1px var(--black);
+}
+
+a.button-primary {
+  text-decoration: none;
 }
