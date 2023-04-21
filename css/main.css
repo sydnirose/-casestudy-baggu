@@ -81,3 +81,25 @@ a.nav--item:hover {
 
 
 /** FEATURE SECTION **/
+.feature-container {
+  display: grid;
+  background-color: var(--beige);
+}
+
+.button-primary {
+  background-color: var(--black);
+  color: var(--beige);
+  text-transform: uppercase;
+  font-family: var(--font-sans-serif);
+  border-radius: 15px;
+  border: none;
+  padding: 5px 30px;
+}
+
+img.feature-img {
+  max-width: 500px;
+}
+
+h2.feature-title {
+  font-family: var(--font-sans-serif);
+}
