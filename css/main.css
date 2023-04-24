@@ -150,3 +150,8 @@ h2.new-ar {
 
 
 /** FOOTER **/
+.footer-logo {
+  max-width: 100%;
+  height: auto;
+}
+
