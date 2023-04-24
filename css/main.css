@@ -155,3 +155,26 @@ h2.new-ar {
   height: auto;
 }
 
+.button-submit {
+  background-color: var(--black);
+  color: var(--beige);
+  text-transform: uppercase;
+  font-family: var(--font-sans-serif);
+  font-size: medium;
+  border-radius: 20px;
+  padding: 5px 25px;
+  border: solid 1px var(--black);
+}
+
+.footer-container {
+  font-family: var(--font-sans-serif);
+  display: flex;
+}
+
+li.footer-item {
+  list-style: none;
+}
+
+a.footer-item {
+  text-decoration: none;
+}
