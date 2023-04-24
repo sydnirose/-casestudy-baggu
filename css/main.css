@@ -169,6 +169,8 @@ h2.new-ar {
 .footer-container {
   font-family: var(--font-sans-serif);
   display: flex;
+  font-size: x-large;
+  justify-content: space-evenly;
 }
 
 li.footer-item {
