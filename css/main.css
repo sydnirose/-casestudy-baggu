@@ -8,17 +8,18 @@
 
 html {
     box-sizing: border-box;
+    background-color: var(--beige);
   }
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
 
 h1 {
     font-family: var(--font-sans-serif);
 }
 
 hr {
-  max-width: 1110px;
   margin-left: 0px;
   border-top: 2px solid var(--black);
   margin-top: 0px;
@@ -33,7 +34,6 @@ hr {
   color: var(--beige);
   background-color: var(--black);
   text-align: center;
-  max-width: 1110px;
   line-height: 36px;
   letter-spacing: 1px;
 }
@@ -44,8 +44,6 @@ hr {
   text-transform: uppercase;
   display: flex;
   flex-flow: row wrap;
-  background-color: var(--beige);
-  max-width: 1110px;
   font-size: 200%;
   justify-content: space-between;
   padding: 0px 30px 0px;
@@ -93,9 +91,7 @@ img.feature-img {
 
 .feature-container {
   display: grid;
-  background-color: var(--beige);
   grid-template-columns: 1fr 1fr;
-  max-width: 1100px;
   padding: 20px 30px;
   margin: 5px 0px;
 }
@@ -116,3 +112,41 @@ img.feature-img {
 a.button-primary {
   text-decoration: none;
 }
+
+/** NEW ARRIVALS **/
+.new-ar--container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  overflow-x: scroll;
+}
+
+.new-ar--product {
+  margin: 5px 15px;
+}
+
+h2.new-ar {
+  margin-left: 100px;
+  font-family: var(--font-sans-serif);
+  font-size: 400%;
+  font-weight: 100;
+}
+
+.new-ar--title, .new-ar--price {
+  font-family: var(--font-sans-serif);
+  font-weight: 100;
+  font-size: x-large;
+}
+
+.new-ar--color {
+  font-family: var(--font-serif);
+  line-height: 10px;
+}
+
+
+
+
+
+
+
+
+/** FOOTER **/
