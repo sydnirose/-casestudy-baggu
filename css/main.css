@@ -141,6 +141,7 @@ h2.new-ar {
   font-family: var(--font-serif);
   line-height: 10px;
 }
+
 /** FEATURE REPEAT SECTION **/
 .product-container {
   display: grid;
@@ -158,7 +159,12 @@ h2.product-title {
   font-size: x-large;
 }
 
-
+/** IN USE SECTION **/
+h2.in-use--title {
+  font-family: var(--font-sans-serif);
+  font-size: 400%;
+  font-weight: 100;
+}
 
 
 
