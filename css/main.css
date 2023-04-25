@@ -170,6 +170,23 @@ h2.product-title {
 
 .footer-text {
   font-family: var(--font-sans-serif);
+  margin-left: 75px;
+  font-size: larger;
+}
+
+.footer-email {
+  font-family: var(--font-serif);
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: 100;
+  margin-left: 75px;
+}
+
+input[type=email] {
+  border: none;
+  border-bottom: 2px solid var(--black);
+  background-color: var(--beige);
+  padding-bottom: 15px;
 }
 
 .button-submit {
@@ -188,12 +205,31 @@ h2.product-title {
   display: flex;
   font-size: x-large;
   justify-content: space-evenly;
+  padding-bottom: 20px;
 }
 
 li.footer-item {
   list-style: none;
+  line-height: 35px;
 }
 
 a.footer-item {
   text-decoration: none;
+}
+
+/** FOOTER - LINKS **/
+a.footer-item {
+  text-decoration: none;
+}
+
+a.footer-item:link {
+  color: var(--black);
+}
+
+a.footer-item:visited {
+  color: var(--black);
+}
+
+a.footer-item:hover {
+  color: var(--grey);
 }
