@@ -141,9 +141,22 @@ h2.new-ar {
   font-family: var(--font-serif);
   line-height: 10px;
 }
+/** FEATURE REPEAT SECTION **/
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  overflow-x: scroll;
+}
 
+.product-section {
+  padding: 5px 10px;
+}
 
-
+h2.product-title {
+  font-family: var(--font-sans-serif);
+  font-weight: 100;
+  font-size: x-large;
+}
 
 
 
@@ -153,6 +166,10 @@ h2.new-ar {
 .footer-logo {
   max-width: 100%;
   height: auto;
+}
+
+.footer-text {
+  font-family: var(--font-sans-serif);
 }
 
 .button-submit {
