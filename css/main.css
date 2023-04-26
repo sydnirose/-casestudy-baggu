@@ -20,9 +20,8 @@ h1 {
 }
 
 hr {
-  margin-left: 0px;
   border-top: 2px solid var(--black);
-  margin-top: 0px;
+  margin: auto;
 }
 
 .font-change {
@@ -107,7 +106,7 @@ img.feature-img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 20px 30px;
-  margin: 5px 0px;
+  margin: 5px 0px 70px 0px;
   gap: 30px;
 }
 
