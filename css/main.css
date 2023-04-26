@@ -259,6 +259,11 @@ input[type=email] {
   margin: 0;
 }
 
+.footer-list-special {
+  padding: 50px 100px 20px 10px;
+  margin: 0;
+}
+
 li.footer-item {
   list-style: none;
   line-height: 35px;
