@@ -225,8 +225,14 @@ input[type=email] {
   font-family: var(--font-sans-serif);
   display: flex;
   font-size: x-large;
-  justify-content: space-evenly;
   padding-bottom: 20px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-list {
+  padding: 50px 20px 20px 10px;
+  margin: 0;
 }
 
 li.footer-item {
