@@ -98,6 +98,7 @@ img.feature-img {
   grid-template-columns: 1fr 1fr;
   padding: 20px 30px;
   margin: 5px 0px;
+  gap: 30px;
 }
 
 /** FEATURE SECTION - BUTTONS **/
