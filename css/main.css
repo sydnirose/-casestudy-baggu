@@ -38,6 +38,10 @@ hr {
   letter-spacing: 1px;
 }
 
+p.banner {
+  margin: 0;
+}
+
 /** NAV BAR **/
 .nav {
   font-family: var(--font-sans-serif);
