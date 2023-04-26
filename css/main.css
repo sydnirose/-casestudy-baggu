@@ -135,7 +135,12 @@ a.button-primary {
 }
 
 .new-ar--product {
-  margin: 5px 15px;
+  margin: 5px 15px 50px 15px;
+  display: grid;
+}
+
+.new-ar--img {
+  grid-column: span 2;
 }
 
 h2.new-ar {
@@ -149,11 +154,27 @@ h2.new-ar {
   font-family: var(--font-sans-serif);
   font-weight: 100;
   font-size: x-large;
+  margin-top: 0;
+  margin-bottom: 0px;
+  grid-column: span 1;
+}
+
+.new-ar--price {
+  text-align: right;
 }
 
 .new-ar--color {
   font-family: var(--font-serif);
   line-height: 10px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  grid-column: span 2;
+  margin-bottom: 5px;
+}
+
+/** GIF IMAGE **/
+video {
+  margin-bottom: 20px;
 }
 
 /** FEATURE REPEAT SECTION **/
