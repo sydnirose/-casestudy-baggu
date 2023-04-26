@@ -1,0 +1,241 @@
+:root {
+    --font-sans-serif: nimbus-sans, sans-serif;
+    --font-serif: itc-american-typewriter, serif;
+    --black: #000;
+    --beige: #f2eee1;
+    --grey: #797770;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: var(--beige);
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+h1 {
+    font-family: var(--font-sans-serif);
+}
+
+hr {
+  margin-left: 0px;
+  border-top: 2px solid var(--black);
+  margin-top: 0px;
+}
+
+/** BANNER **/
+.banner {  
+  font-family: itc-american-typewriter, serif;
+  font-weight: 500;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--beige);
+  background-color: var(--black);
+  text-align: center;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+
+/** NAV BAR **/
+.nav {
+  font-family: var(--font-sans-serif);
+  text-transform: uppercase;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 200%;
+  justify-content: space-between;
+  padding: 0px 30px 0px;
+  line-height: 0px;
+}
+
+.nav--list {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.nav--item {
+  padding: 3px;
+}
+
+/** LINKS - NAV BAR **/
+a.nav--item {
+  text-decoration: none;
+}
+
+a.nav--item:link {
+  color: var(--black);
+}
+
+a.nav--item:visited {
+  color: var(--black);
+}
+
+a.nav--item:hover {
+  color: var(--grey);
+}
+
+
+/** FEATURE SECTION **/
+h2.feature-title {
+  font-family: var(--font-sans-serif);
+  font-size: 270%;
+  font-weight: 100;
+}
+
+img.feature-img {
+  max-width: 500px;
+}
+
+.feature-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 30px;
+  margin: 5px 0px;
+}
+
+/** FEATURE SECTION - BUTTONS **/
+.button-primary {
+  background-color: var(--black);
+  color: var(--beige);
+  text-transform: uppercase;
+  font-family: var(--font-sans-serif);
+  font-size: large;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 8px 15px;
+  border: solid 1px var(--black);
+}
+
+a.button-primary {
+  text-decoration: none;
+}
+
+/** NEW ARRIVALS **/
+.new-ar--container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  overflow-x: scroll;
+}
+
+.new-ar--product {
+  margin: 5px 15px;
+}
+
+h2.new-ar {
+  margin-left: 100px;
+  font-family: var(--font-sans-serif);
+  font-size: 400%;
+  font-weight: 100;
+}
+
+.new-ar--title, .new-ar--price {
+  font-family: var(--font-sans-serif);
+  font-weight: 100;
+  font-size: x-large;
+}
+
+.new-ar--color {
+  font-family: var(--font-serif);
+  line-height: 10px;
+}
+
+/** FEATURE REPEAT SECTION **/
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  overflow-x: scroll;
+}
+
+.product-section {
+  padding: 5px 10px;
+}
+
+h2.product-title {
+  font-family: var(--font-sans-serif);
+  font-weight: 100;
+  font-size: x-large;
+}
+
+/** IN USE SECTION **/
+h2.in-use--title {
+  font-family: var(--font-sans-serif);
+  font-size: 400%;
+  font-weight: 100;
+}
+
+
+
+/** FOOTER **/
+.footer-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-text {
+  font-family: var(--font-sans-serif);
+  margin-left: 75px;
+  font-size: larger;
+}
+
+.footer-email {
+  font-family: var(--font-serif);
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: 100;
+  margin-left: 75px;
+}
+
+input[type=email] {
+  border: none;
+  border-bottom: 2px solid var(--black);
+  background-color: var(--beige);
+  padding-bottom: 5px;
+}
+
+.button-submit {
+  background-color: var(--black);
+  color: var(--beige);
+  text-transform: uppercase;
+  font-family: var(--font-sans-serif);
+  font-size: medium;
+  border-radius: 20px;
+  padding: 5px 25px;
+  border: solid 1px var(--black);
+}
+
+.footer-container {
+  font-family: var(--font-sans-serif);
+  display: flex;
+  font-size: x-large;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+
+li.footer-item {
+  list-style: none;
+  line-height: 35px;
+}
+
+a.footer-item {
+  text-decoration: none;
+}
+
+/** FOOTER - LINKS **/
+a.footer-item {
+  text-decoration: none;
+}
+
+a.footer-item:link {
+  color: var(--black);
+}
+
+a.footer-item:visited {
+  color: var(--black);
+}
+
+a.footer-item:hover {
+  color: var(--grey);
+}
