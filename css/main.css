@@ -201,6 +201,10 @@ h2.in-use--title {
   font-weight: 100;
 }
 
+.in-use--fig {
+  font-family: var(--font-serif);
+  font-size: large;
+}
 
 
 /** FOOTER **/
