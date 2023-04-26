@@ -25,6 +25,16 @@ hr {
   margin-top: 0px;
 }
 
+.font-change {
+  font-family: var(--font-serif);
+  font-weight: 100;
+}
+
+.style-change {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
 /** BANNER **/
 .banner {  
   font-family: var(--font-serif);
@@ -50,7 +60,6 @@ p.banner {
   flex-flow: row wrap;
   font-size: 200%;
   justify-content: space-between;
-  padding: 0px 30px 0px;
   line-height: 0px;
 }
 
@@ -58,6 +67,7 @@ p.banner {
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
+  margin: 15px 30px 27px 0px;
 }
 
 .nav--item {
