@@ -186,6 +186,7 @@ video {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   overflow-x: scroll;
+  padding-bottom: 100px;
 }
 
 .product-section {
@@ -203,11 +204,45 @@ h2.in-use--title {
   font-family: var(--font-sans-serif);
   font-size: 400%;
   font-weight: 100;
+  grid-column: 4 / span 3;
+  padding-left: 90px;
 }
 
-.in-use--fig {
+.in-use--figcapt {
   font-family: var(--font-serif);
   font-size: large;
+}
+
+.in-use--container {
+  display: grid;
+  grid-template-columns: repeat(7, 187px);
+  grid-template-rows: repeat(10, 187px);
+  padding-top: 100px;
+}
+
+.in-use--fig1 {
+  margin-left: 0;
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.in-use--fig2 {
+  grid-column-start: 6;
+  grid-row-start: 2;
+  margin-left: 0;
+  margin-top: 90px;
+}
+
+.in-use--fig3 {
+  grid-column: 3 / 4;
+}
+
+.in-use--fig4 {
+  grid-column: 4 / 6;
+}
+
+.in-use--fig5 {
+  grid-column: 1 / 3;
 }
 
 
