@@ -65,12 +65,16 @@ p.banner {
 .nav--list {
   list-style-type: none;
   display: flex;
-  flex-flow: row wrap;
-  margin: 15px 30px 27px 0px;
+  flex-flow: row nowrap;
+  margin: 15px 30px 20px 0px;
 }
 
 .nav--item {
   padding: 3px;
+}
+
+i {
+ font-size: x-large;
 }
 
 /** LINKS - NAV BAR **/
