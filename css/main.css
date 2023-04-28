@@ -256,6 +256,10 @@ in-use--img {
   margin: 0;
 }
 
+/** INSTAGRAM **/
+.instagram {
+  display: flex;
+}
 
 /** FOOTER **/
 .footer-logo {
