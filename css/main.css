@@ -267,6 +267,10 @@ in-use--img {
   height: auto;
 }
 
+.footer-submission {
+  padding-top: 50px;
+}
+
 .footer-text {
   font-family: var(--font-sans-serif);
   margin-left: 75px;
