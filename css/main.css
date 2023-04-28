@@ -257,14 +257,14 @@ in-use--img {
 }
 
 /** INSTAGRAM **/
-.instagram {
+.instagram-container {
   display: flex;
-  white-space: nowrap;
+  white-space: wrap;
   animation: bannermove 45s linear infinite;
 }
 
 @keyframes bannermove {
-  0% { transform: translateX(100%); }
+  0% { transform: translateX(0%); }
   100% { transform: translateX(-100%); }
 }
 
