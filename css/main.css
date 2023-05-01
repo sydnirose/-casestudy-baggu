@@ -267,7 +267,6 @@ in-use--img {
 /** INSTAGRAM **/
 .instagram-container {
   display: flex;
-  white-space: wrap;
   animation: bannermove 45s linear infinite;
 }
 
