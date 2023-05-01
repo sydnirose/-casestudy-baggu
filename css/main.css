@@ -14,6 +14,10 @@ html {
     box-sizing: inherit;
   }
 
+video {
+  width: 100%;
+  height: auto;
+}
 
 h1 {
     font-family: var(--font-sans-serif);
@@ -22,6 +26,10 @@ h1 {
 hr {
   border-top: 2px solid var(--black);
   margin: auto;
+}
+
+hr.middle {
+  width: 95%;
 }
 
 .font-change {
